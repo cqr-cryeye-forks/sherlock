@@ -1,11 +1,18 @@
 # Virtual Environment
 venv/
+bin/
+lib/
+pyvenv.cfg
 
-# vscode
+# Editor Configurations
 .vscode/
+.idea/
 
 # Python
 __pycache__/
+
+# Pip
+src/
 
 # Jupyter Notebook
 .ipynb_checkpoints
@@ -17,3 +24,15 @@ __pycache__/
 
 # Comma-Separated Values (CSV) Reports
 *.csv
+
+#XLSX Reports
+*.xlsx
+
+# Excluded sites list
+tests/.excluded_sites
+
+# MacOS Folder Metadata File
+.DS_Store
+
+# Vim swap files
+*.swp
